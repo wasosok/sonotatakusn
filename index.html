@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>升合をミリリットルに変換する</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>升合をミリリットルに変換するだけのサイト</h1>
+    <div>
+      <label for="volume">升合：</label>
+      <input type="number" id="volume" placeholder="升合を入力してください">
+      <select id="unit">
+        <option value="issho">升</option>
+        <option value="ichigou">合</option>
+      </select>
+    </div>
+    <button onclick="convertToMl()">変換する</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
